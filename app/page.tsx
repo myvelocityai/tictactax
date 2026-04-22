@@ -1,6 +1,7 @@
 import HeroSection from "@/components/ui/glassmorphism-trust-hero";
 import AcademySection from "@/components/ui/academy-section";
 import PricingSection from "@/components/ui/pricing-section-3";
+import ChatWidget from "@/components/ui/chat-widget";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           </a>
         </p>
       </footer>
+      <ChatWidget />
     </div>
   );
 }
